@@ -55,7 +55,7 @@ def in_dict(text, dwords):
 
 with open('small_words.txt', 'r') as f:
         dwords = f.read()
-
+'''
 dwords = dwords.lower().split('\n')
 
 dub = get_txt('dub.txt')
@@ -66,7 +66,7 @@ poa = get_txt('poa.txt')
 text_all = [dub, poa, uly, fin]
 
 years = ['1914', '1916', '1922', '1939']
-names = ['Dubliners', 'Portrait of the Artist\nas a Young Man',
+names = ['Dubliners', 'Portrait of the Artist as a Young Man',
          'Ulysses', 'Finnegans Wake']
 
 avg_w, n_w, n_u = [], [], []
@@ -99,6 +99,4 @@ plt.savefig('words_not_in_dict.png')
 (df.Unique_words / df.Number_of_words).plot(rot=0)
 plt.ylabel('Number of Unique Words / Toal Word Count')
 plt.savefig('ratio.png')
-
-
-
+'''
